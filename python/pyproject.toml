@@ -1,0 +1,17 @@
+[project]
+name = "blockchain"
+version = "0.1.0"
+description = "Simple blockchain project"
+readme = "README.md"
+authors = [
+    { name = "Dessan Hemrayev", email = "dessanhemrayev@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+blockchain = "blockchain.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
